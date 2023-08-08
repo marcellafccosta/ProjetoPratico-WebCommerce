@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .navbar ul li {
+    width: 150px;
+    float: left;
+    
+  }
+  
+  
+  body {
+    background-color: #fce7ed;
+  }
+  
+  
+  .insta {
+    text-decoration: none;
+  
+  }
+  
+  .card img {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  
+  .card {
+    border-width: 0;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: #c0a4ac;
+  }
+  
+  
+  #carrinho {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  
+  
+  .cashon {
+    color:#fce7ed;
+  }
+  
+  .cash {
+    padding-right: 0;
+  }
+  
+  
+
+  
+  .welcome {
+    margin-top: 4rem;
+    color:#fce7ed;
+  }
+  
+ 
+  
+  
+  .footer {
+    background-color: #c0a4ac;
+    padding-top: 3.5rem;
+    margin-top: 7rem;
+  }
+  
+  
+
+  
+  .copyright {
+    background-color: #fce7ed;
+  }
+  
+  
+  .quick-links {
+    list-style: none;
+  }
+  
+  .links {
+    text-align: center;
+  }
+  
+  .contato {
+    text-align: center;
+  }
+  
+  .pagamento {
+    text-align: center;
+  }
+  
+  .social {
+    text-align: center;
+  }
+  
+
+.filtroo {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+  
+} 
+  
+  #searchButton {
+    margin-left: 0.5rem;
+  }
+  
+  
+  .filtro {
+    margin-bottom: 1rem;
+    background-color: #c0a4ac;
+    padding: 2rem 2rem;
+    border-radius: 12px;
+  }
+  
+  
+  /* Media Query - 300px */
+  @media screen and (max-width: 300px) {
+  
+  
+  
+    .footer {
+      width: 139%;
+    }
+  }
+  
+  
+  @media (max-width: 391px) {
+    .gato {
+      max-height: 20rem;
+      max-width: 30rem;
+    }
+  
+    .pagamento {
+  
+  
+      display: grid;
+      place-items: center;
+    }
+  
+    .links {
+      display: grid;
+      place-items: center;
+    }
+  
+  
+    .social {
+  
+      display: grid;
+      place-items: center;
+    }
+  
+    .contato {
+      padding-top: 1.2rem;
+      display: grid;
+      place-items: center;
+    }
+  }
+  
+  /* Media Query - 576px */
+  @media (max-width: 576px) {
+    .card img {
+      max-height: 300px;
+    }
+  }
+  
+  
+  @media (max-width: 765px) {
+    .pagamento {
+      padding-bottom: 25px;
+      padding-left: 0;
+    }
+  
+    .quick-links {
+      padding-bottom: 25px;
+    }
+  
+    .social {
+      padding-bottom: 25px;
+    }
+  
+    .contato {
+      padding-bottom: 25px;
+    }
+  
+  }
+  
+  
+  /* Media Query - 992px */
+  @media screen and (max-width: 992px) {
+  
+    .formulario {
+      width: 100%;
+      padding-bottom: 30px;
+    }
+  
+    .carrossel {
+      width: 100%;
+    }
+  }
